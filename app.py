@@ -6,10 +6,11 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.title("COVID-19 Analytics & Prediction Dashboard")
+st.markdown("### Data Analysis • Machine Learning • Interactive Dashboard") 
+
 st.sidebar.markdown("## 📊 COVID Dashboard Controls")
 st.set_page_config(layout="wide")
-
-st.title("🌍 COVID-19 Interactive Dashboard")
 
 # Load data
 df = pd.read_csv("covid_19_clean_complete.csv")
@@ -114,3 +115,10 @@ st.pyplot(plt)
 # ---------------- DATA TABLE ---------------- #
 st.subheader("📄 Data Preview")
 st.dataframe(filtered.tail())
+
+st.markdown("""
+---
+### 📌 About This Project
+This dashboard analyzes COVID-19 trends using data analytics and machine learning techniques.  
+It includes prediction models and interactive visualizations to derive insights.
+""")
