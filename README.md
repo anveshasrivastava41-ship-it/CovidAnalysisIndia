@@ -42,6 +42,18 @@ This project presents a comprehensive analysis of COVID-19 data using data analy
 
 ---
 
+## 📸 Dashboard Preview
+
+### 🔹 Main Dashboard
+![Main Dashboard](screenshot1.png)
+
+### 🔹 Trend Visualization
+![Trend](screenshot2.png)
+
+### 🔹 ML Prediction
+![Prediction](screenshot3.png)
+
+
 ## 🧠 Key Insights
 
 * COVID-19 cases showed multiple waves with rapid spikes during peak periods
